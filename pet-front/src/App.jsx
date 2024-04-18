@@ -5,7 +5,7 @@ import Info from "./Components/Info/Info";
 import Projects from "./Components/Projects/Projects";
 
 function App() {
-  const [nav, setNav] = useState("projects");
+  const [nav, setNav] = useState("info");
 
   return (
     <>

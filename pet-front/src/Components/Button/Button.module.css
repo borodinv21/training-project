@@ -6,6 +6,7 @@
   transition: all 0.3s;
   font-weight: bold;
   margin-right: 1rem;
+  background: #e5e4e2;
 }
 
 .button:hover {
@@ -14,7 +15,7 @@
 
 .button.active {
   scale: 1.05;
-  background: #3e6ae1;
+  background: #434b4d;
   color: #fff;
 }
 
