@@ -65,7 +65,7 @@ body {
 /* General */
 
 .container {
-  margin: 0 auto;
+  margin: 10px auto;
   padding: 0 15px;
   max-width: 1200px;
 }

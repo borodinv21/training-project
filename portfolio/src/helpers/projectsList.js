@@ -1,9 +1,9 @@
 import projectImg1 from "../pages/projects/img/projects/01.jpg";
-import projectImg2 from "../pages/projects/img/projects/01.jpg";
-import projectImg3 from "../pages/projects/img/projects/01.jpg";
-import projectImg4 from "../pages/projects/img/projects/01.jpg";
-import projectImg5 from "../pages/projects/img/projects/01.jpg";
-import projectImg6 from "../pages/projects/img/projects/01.jpg";
+import projectImg2 from "../pages/projects/img/projects/02.jpg";
+import projectImg3 from "../pages/projects/img/projects/03.jpg";
+import projectImg4 from "../pages/projects/img/projects/04.jpg";
+import projectImg5 from "../pages/projects/img/projects/05.jpg";
+import projectImg6 from "../pages/projects/img/projects/06.jpg";
 
 const projectsList = [
   {
@@ -43,3 +43,5 @@ const projectsList = [
     gitLink: "https://github.com/borodinv21",
   },
 ];
+
+export { projectsList };
