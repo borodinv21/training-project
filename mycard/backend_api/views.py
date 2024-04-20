@@ -13,8 +13,8 @@ class ProjectInfoView(APIView):
         ]
         return Response(output)
 
-    def post(self, requst):
-        serializer = ProjectInfoSerializer(data=requst.data)
+    def post(self, request):
+        serializer = ProjectInfoSerializer(data=request.data)
         if serializer.is_valid(raise_exception=True):
             serializer.save()
             return Response(serializer.data)
