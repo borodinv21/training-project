@@ -10,11 +10,13 @@ import Home from "./pages/home/Home";
 import Projects from "./pages/projects/Projects";
 import Contacts from "./pages/contacts/Contacts";
 import ProjectPage from "./pages/projectPage/ProjectPage";
+import ScrollToTop from "./utils/ScrollToTop";
 
 function App() {
   return (
     <>
       <Router>
+        <ScrollToTop />
         <Navbar />
         <Routes>
           <Route path="/" element={<Home />} />
