@@ -13,7 +13,7 @@ export default function Navbar() {
         <div className="container">
           <div className="nav-row">
             <NavLink to="/" className="logo">
-              <strong>Freelancer</strong> portfolio
+              <strong>Портфолио</strong> разработчика
             </NavLink>
 
             <DarkModeButton />
@@ -25,7 +25,7 @@ export default function Navbar() {
                   className={({ isActive }) => {
                     return isActive ? activeLink : normalLink;
                   }}>
-                  Home
+                  Главная
                 </NavLink>
               </li>
               <li className="nav-list__item">
@@ -34,7 +34,7 @@ export default function Navbar() {
                   className={({ isActive }) => {
                     return isActive ? activeLink : normalLink;
                   }}>
-                  Projects
+                  Проекты
                 </NavLink>
               </li>
               <li className="nav-list__item">
@@ -43,7 +43,7 @@ export default function Navbar() {
                   className={({ isActive }) => {
                     return isActive ? activeLink : normalLink;
                   }}>
-                  Contacts
+                  Контакты
                 </NavLink>
               </li>
             </ul>

@@ -9,14 +9,11 @@ export default function Header() {
             <strong>
               Привет, меня зовут <em>Вячеслав</em>
             </strong>
-            <br />a frontend developer
+            <br />я Python Backend Разработчик
           </h1>
           <div className="header__text">
-            <p>with passion for learning and creating.</p>
+            <p>Создаю, Ломаю, Чиню</p>
           </div>
-          <a href="#!" className="btn">
-            Download CV
-          </a>
         </div>
       </header>
     </>

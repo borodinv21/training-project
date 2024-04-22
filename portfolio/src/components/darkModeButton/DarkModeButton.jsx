@@ -1,4 +1,5 @@
-import { useState, useEffect, useRef } from "react";
+import { useEffect, useRef } from "react";
+import { useLocalStorage } from "../../utils/UseLocalStorage";
 
 import sun from "./img/icons/sun.svg";
 import moon from "./img/icons/moon.svg";
@@ -6,7 +7,8 @@ import moon from "./img/icons/moon.svg";
 import "./DarkModeButton.css";
 
 export default function DarkModeButton() {
-  const [darkMode, setDarkMode] = useState("Light");
+  const [darkMode, setDarkMode] = useLocalStorage("darkMode", "Light");
+
   const buttonRef = useRef(null);
 
   useEffect(() => {
