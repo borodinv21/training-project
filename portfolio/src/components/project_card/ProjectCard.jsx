@@ -1,14 +1,15 @@
 import "./ProjectCard.css";
-import projectImg1 from "../../pages/projects/img/projects/01.jpg";
+import { NavLink } from "react-router-dom";
 
 export default function ProjectCard(props) {
   return (
     <>
       <li className="project">
-        <a href="./project-page.html">
+        <NavLink to={`/project-page/${props.index}`}>
           <img src={props.img} alt="Project img" className="project__img" />
+          <p>{props.index}</p>
           <h3 className="project__title">{props.title}</h3>
-        </a>
+        </NavLink>
       </li>
     </>
   );
